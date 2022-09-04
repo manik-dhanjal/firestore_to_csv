@@ -1,0 +1,20 @@
+{
+  "name": "firestore_to_csv",
+  "version": "1.0.0",
+  "description": "It is node.js REST API to download firestore database in csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "Manik Dhanjal",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "firebase": "^9.9.4",
+    "json2csv": "^5.0.7",
+    "nodemon": "^2.0.19"
+  }
+}
