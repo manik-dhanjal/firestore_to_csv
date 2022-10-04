@@ -3,8 +3,10 @@ const app = express();
 require('dotenv').config()
 
 const odomosRoutes = require("./src/routes/odomos.routes");
+const ratanprashRoutes = require("./src/routes/ratanprash.routes");
 
 app.use('/odomos-quiz', odomosRoutes);
+app.use('/ratanprash',ratanprashRoutes);
 
 app.get('/',(req,res) =>{
     res.send(`
