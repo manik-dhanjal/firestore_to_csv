@@ -18,6 +18,7 @@ app.get('/',(req,res) =>{
             </Head>
             <Body>
                 <a href="/odomos-quiz">click here for Odomos CSV file</a>
+                <a href="/ratanprash">click here for Ratanprash CSV file</a>
             </Body>
         </HTML>
     `)
